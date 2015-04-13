@@ -4,7 +4,6 @@ import PathFinding.Algorithm
 import qualified Example.Grid1 as Example
 import qualified Example.Grid2 as Example
 
-
 main = do
     print $ findPath (0,0) (5,0) Example.grid1
     print $ findPath (0,0) (5,0) Example.grid2
