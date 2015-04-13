@@ -1,8 +1,9 @@
--- Benchmark the cost of creating various types of map.
+-- this is | a copy paster from criterion example lib
+--         | a temporary placeholder
 
 {-# LANGUAGE FlexibleContexts, ScopedTypeVariables #-}
 module Benchmark where
-    
+
 import Criterion.Main
 import Data.ByteString (ByteString, pack)
 import Data.Hashable (Hashable)

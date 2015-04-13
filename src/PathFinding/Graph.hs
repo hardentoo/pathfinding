@@ -2,9 +2,9 @@
 {-# LANGUAGE TypeFamilies #-}
 
 module PathFinding.Graph where
+
 import Data.Ix
 import PathFinding.Class
-
 import qualified Data.Map as Map
 import Data.Map (Map)
 

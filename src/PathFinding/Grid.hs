@@ -25,7 +25,6 @@ instance PathFinding (Grid cell) where
         [] -> Nothing
         (a:as) -> Just (a, as)
 
-
 gridNeighbors4 = gridNeighbors (\(x,y) -> [(x+1,y),(x-1,y),(x,y+1),(x,y-1)])
 gridNeighbors8 = gridNeighbors (\(x,y) -> [(x+1,y),(x-1,y),(x,y+1),(x,y-1),(x+1,y+1),(x-1,y-1),(x-1,y+1),(x+1,y-1)])
 gridNeighbors closePos isFree carte (x,y) = filter isValid (closePos (x,y))

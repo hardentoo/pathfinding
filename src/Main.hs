@@ -1,9 +1,5 @@
 module Main where
 
--- import Control.Lens
--- import Control.Monad
--- import Data.Monoid
--- import Debug.Trace
 import PathFinding.Algorithm
 import qualified Example.Grid1 as Example
 import qualified Example.Grid2 as Example

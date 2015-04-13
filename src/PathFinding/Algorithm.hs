@@ -7,6 +7,7 @@ import qualified Data.Map as M
 import PathFinding.Class
 import Data.Proxy
 
+-- TODO: remove the need to both have pos and neightboors
 findPath :: (PathFinding carte, pos ~ Pos carte, Ord pos) => pos -> pos -> carte -> [pos]
 findPath from to carte =
     dijkstra (mkqueue proxy [from]) M.empty
